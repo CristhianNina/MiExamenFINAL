@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TomaDeDecisiones">
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="241dp"
+                app:srcCompat="@drawable/tomadedecisiones1" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bowlby_one"
+                android:text="Toma de decisiones "
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El vertiginoso ritmo de trabajo actual “obliga” a que los profesionales más capacitados sean aquellos que puedan tomar decisiones aun en las situaciones más complejas de manera tal que los conflictos que haya que resolver tengan la mejor salida para todos los implicados." />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Afrontar los problemas" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cada día nos encontramos delante de situaciones problemáticas que crean situaciones de incertidumbre o aumentan las dificultades de conseguir lo que queremos. Para resolver estas situaciones necesitamos una serie de habilidades que son básicas en nuestra vida privada y profesional. Estas habilidades son también determinantes para el éxito personal. En un mundo en constante cambio, una de nuestras tareas cotidianas es la de hacer frente a los problemas y tomar decisiones. No sólo hemos de resolver los problemas que tenemos enfrente, sino que lo hemos de hacer con un límite de tiempo y conseguir los objetivos que nos hemos (o nos han) marcado." />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Enfrentar a los problemas" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Un aspecto fundamental de la resolución de problemas es la percepción que tenemos. La mayoría de conflictos que sufrimos se deben a la percepción. El caso de la botella medio vacía o medio llena es un claro ejemplo. Una determinada situación es un problema para una persona, otro problema diferente e, incluso, ningún problema para un tercero. " />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                app:srcCompat="@drawable/tomadedecisiones2" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Resolver un problema  " />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transformar una situación que no nos gusta, no nos interesa o nos molesta en otra diferente.  Nuestra capacidad de resolver problemas es enorme. La historia está llena de acontecimientos en los que seres humanos han hecho frente con éxito situaciones límite. Sin necesidad de llegar al límite, nosotros podemos desarrollar nuestro potencial. Lo que hace falta es saber organizarse adecuadamente y, sobre todo, saber escuchar y analizar lo que sucede en nuestro entorno y a nosotros mismos. A veces ya tenemos la solución pero no somos conscientes de ello. " />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tomadedecisiones3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

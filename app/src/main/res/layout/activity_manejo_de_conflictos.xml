@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManejoDeConflictos">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manejodeconflictos1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bowlby_one"
+                android:text="MANEJO DE"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bowlby_one"
+                android:text="CONFLICTOS"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay  conceptos  como  el  de  Henry  Pratt,  que  definen  al  conflicto  como  un  proceso-situación en  el  que  dos  o  más  seres  o  grupos  humanos  tratan  activamente  de  frustrar  sus respectivos  propósitos,  de  impedir  la  satisfacción  de  sus  intereses  recíprocos,  llegando  a lesionar  o  a  destrozar  al  adversario,  pudiendo  ser  el  conflicto  organizado  o  no,  transitorio o  permanente,  físico,  intelectual  o  hasta  espiritual&quot;  Características  de  los  conflictos: •  El  conflicto  es  algo  natural.   •  El  conflicto  involucra  un  problema  de  poder.  Este  tema  resulta  evidente  ya  que  siempre va  a  existir  dentro  de  un  conflicto  una  parte  que  tenga  ventajas  sobre  la  otra.  " />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•  La  intervención  de  dos  o  más  personas.  Cuando  se  habla  de  los  sujetos  que  intervienen en  el  conflicto  no  solo  se  debe  presumir  que  los  conflictos  son  interpersonales,  sino  que también  intervienen  en  éstos  grupos,  comunidades,  organizaciones,  etc. •  Un  conflicto  no  es  necesariamente  el  problema  central.  El  problema  se  lo  puede considerar  como  la  parte  objetiva  y  al  conflicto  como  una  parte  subjetiva,  dependiendo siempre  de  las  percepciones. •  Un  conflicto  siempre  es  visible.  Se  lo  puede  observar  y  caracterizar. •  Los  conflictos  se  pueden  originar  por  la  escasez  de  posiciones  o  de  recursos.  Este elemento  puede  ser  atribuido  por  ejemplo  a  la  exigibilidad  de  un  derecho  por  el  acceso  a ciertos  recursos  naturales. " />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manejodeconflictos2" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipos  de  conflictos •  Conflicto  Intrapersonal:  interviene  una  sola  parte  (persona  -  naturaleza) •  Conflicto  Interpersonal:  se  da  entre  dos  o  más  personas,  a  este  tipo  de  conflicto  se  lo conoce  comúnmente  como  conflicto  multipartes •  Conflicto  Intragrupal:  se  da  entre  dos  o  mas  grupos. •  Conflicto  Real  o  Instrumental:  surge  de  la  incompatibilidad  de  objetivos. •  Conflicto  Irreal  o  Expresivo:  se  da  por  la  necesidad  de  liberar  tensiones. •  Conflicto  Latente:  se  da  por  aspectos  subyacentes  de  los  actores  (afectivos-emociones). •  Conflicto  Manifiesto:  surge  de  aspectos  evidentes  del  conflicto. •  Conflicto  Inducido:  se  da  por  el  desequilibrio  de  las  relaciones  de  poder. •  Conflicto  Institucionalizado:  se  da  por  comportamientos  previsibles  y  reglas  explícitas (negociación  colectiva). Resolución  de  conflictos. Dentro  de  esta  temática  hay  que  mencionar  que  el  manejo  y  resolución  no  son necesariamente  lo  mismo,  por  una  parte  el  manejo  de  conflictos  involucra  un  conjunto  de estrategias  y  actividades  para  abordarlos,  encaminar  procesos  de  discusión  y  toma  de decisiones,  entre  otras  características;  mientras  que,  la  resolución  de  conflictos  es  una acción  de  resolver    que  también  involucra  llevar  un  proceso  y  que  puede  conformar  el proceso  de  manejo.  Estas  diferencias  no  restan  mérito  a  ninguna  de  las  dos  posiciones, simplemente  son  metodologías  diferentes  de  trabajo  y/o  complementarias  que dependerán  de  las  necesidades,  objetivos,  características  de  cada  conflicto  y  de  los grupos  interventores. " />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formas    de  resolución  de  conflictos. En  la  resolución  de  conflictos,  el  objetivo  principal  es  encontrar  una  solución  al  conflicto. La  pregunta  inmediata  que  nos  hacemos  es:  ¿cómo?,  es  decir  de  qué  manera,  cuál  es  la forma  o  el  camino  apropiado  que  se  debe  buscar  para  intervenir  en  el  conflicto.  Lo  que  se pretende  es  buscar  el  “modo”  idóneo  que  nos  permita  involucrarnos  dentro  de  una situación  delicada,  por  lo  que  el  poder  elegir  el  “modo”  se  transforma  en  una  decisión fundamental.  Tomando  en  cuenta,  además,  que  ningún  conflicto  es  igual,  el  modo  que elijamos  deberá  también  adaptarse  a  las  circunstancias  propias  de  cada  caso.  Esto  hace pensar  que  antes  de  tomar  una  decisión  sobre  qué  “modo”  se  empleará  para  resolver  el conflicto,  debemos  contar  con  todos  los  elementos  que  nos  permita  tomar  una  decisión adecuada  sobre  qué  “modo”  es  el  que  emplearemos.  Al  tomar  en  cuenta  la  complejidad  y el  significado  de  un  conflicto  podemos  mencionar  que  existen  dos  modos  o  formas  de resolverlos:  modos  formales  y  modos  no  formales  o  alternativos,  los  mismos  que  basan  su diferencia  en  la  aplicación  de  un  derecho  convencional,  mientras  que  los  otros  son creados  y  adaptados  por  los  mismos  actores  a  sus  necesidades  de  resolverlo." />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modos  formales. Al  hablar  de  modos  formales  nos  referimos  a  las  vías  procesales  a  través  de  las  cuales  se resuelven  conflictos,  entre  las  que  podemos  encontrar  la  vía  judicial  sea  civil,  penal  o constitucional  y  la  vía  administrativa  a  través  de  procedimientos  que  han  sido  elaborados, estructurados,  reglamentados  e  instrumentados  por  las  distintas  autoridades  e instituciones  competentes  gubernamentales. " />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="a)	 La  vía  judicial " />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vía  Judicial La  vía  judicial    es  la  vía  más  utilizada  para  la  resolución  de  conflictos,  ésta  se  la  ejecuta  a través  de  órganos  Estatales  de  administración  de  justicia  como  son  los  jueces,  tribunales y  cortes  de  justicia. Vía  Administrativa La  vía  administrativa  es  también  un  modo  formal  para  resolver  conflictos,  ésta  acciona  a través  de  entidades  e  instituciones  estatales. " />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="b)	 la  vía  administrativa. " />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vía Diálogo  y  negociación. Comúnmente  los  procesos  de  diálogo  tienen  muchos  aspectos  en  común  con  la negociación,  ya  que  en  los  dos  procesos  las  partes  frente  a  frente  exponen  sus  ideas  y criterios  con  respecto  a  un  aspecto  de  interés  común.  Sin  embargo  hay  que  mencionar que  los  procesos  de  diálogo  no  siempre  se  motivan  por  la  resolución  de  un  conflicto,  es decir  que  sin  necesidad  de  existir  confrontación  y  controversias  sobre  los  temas  a  dialogar las  partes  pueden  participar  de  este  proceso,  pero  es  relevante  acotar  que  las  técnicas  y metodologías  de  la  negociación  son  aplicables  en  los  procesos  de  diálogo  ya  que  éstas son  conducentes  a  facilitar  procesos  brindando  a  las  partes  herramientas  que  agilicen  y sustenten  el  diálogo.  Judicial La  vía  judicial    es  la  vía  más  utilizada  para  la  resolución  de  conflictos,  ésta  se  la  ejecuta  a través  de  órganos  Estatales  de  administración  de  justicia  como  son  los  jueces,  tribunales y  cortes  de  justicia. Vía  Administrativa La  vía  administrativa  es  también  un  modo  formal  para  resolver  conflictos,  ésta  acciona  a través  de  entidades  e  instituciones  estatales. " />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="417dp"
+                app:srcCompat="@drawable/manejodeconflictos4" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

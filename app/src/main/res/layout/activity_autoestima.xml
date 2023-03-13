@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Autoestima">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/autoestima1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bowlby_one"
+                android:text="AUTOESTIMA"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La autoestima es la percepción que tenemos de nosotros mismos. Abarca todos los aspectos de la vida, desde el físico hasta el interior, pasando por la valía o la competencia. Se trata de la valoración que hacemos de nosotras mismas la cual no siempre se ajusta a la realidad. Esa valoración se forma a lo largo de toda la vida y bajo la influencia de los demás." />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                app:srcCompat="@drawable/autoestima2" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Niveles de autoestima" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Autoestima alta" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se entiende por autoestima alta cuando una persona tiene una apreciación positiva de sí misma, lo cual permite que su actitud hacia la vida sea óptima. Ello no implica que el individuo sea perfecto, sino de aceptarse sin cruzar la línea de la mediocridad o conformismo. Un individuo con alta autoestima es más propenso a alcanzar el ideal de felicidad." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Autoestima baja" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La autoestima baja es la incapacidad de una persona para reconocer las cualidades que posee, poniendo a cualquier otra persona o situación por encima de sus propias necesidades o deseos. Un individuo con baja autoestima tiene el constante pensamiento sobre sí mismo de que no es suficiente, o que no hay nada que lo pueda convertir en merecedor de algo más de lo que recibe; incluso, puede pensar que lo que recibe no es meritorio. " />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                app:srcCompat="@drawable/autoestima3" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="Cómo mejorar la autoestima " />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eliminar los pensamientos negativos que se tienen de sí mismo neutralizándolos con algún pensamiento positivo sobre alguna cualidad que se posea. Probar actividades nuevas que permitan resaltar las aptitudes de las personas. Colocarse como meta el lograr algo, poniéndolo como prioridad sobre la perfección de dicho logro. Tomar en cuenta los errores como aprendizaje y no como fracasos. Notar qué se puede cambiar y qué no. Establecer metas a corto, mediano y largo plazo, planificando los pasos que se deben ir realizando para alcanzarlas. Defender las ideas propias con seguridad y propiedad. De igual forma, rodearse con material que ayude a elevar la aceptación propia sería un buen incentivo para ello, como por ejemplo, leer libros de autoestima, frases de autoestima e, incluso, colocar imágenes de autoestima que ayuden a internalizar más confianza en sí mismo. " />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/autoestima4" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
